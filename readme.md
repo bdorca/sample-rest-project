@@ -1,10 +1,13 @@
 # Használat
 
-IDEA-ban érdemes megnyitni. Az első megnyitás után valószínűleg magát importálja a maven dependencyket.
+IDEA-ban érdemes megnyitni.
+Az első megnyitás után valószínűleg magát importálja a maven dependencyket.
 Ha mégsem, akkor meg kell nyitni a `pom.xml` fájlt, itt felajánlja, hogy automatikusan importál mindent, ezt meg kell engedni neki. :) 
 Ha ezután továbbra sem importája be a dolgokat, jobb oldalon van egy maven menü, ennek a bal felső sarkában van egy reimport gomb.
 
+
 # Futtatás
+Első megnyitáskor `idea` mappában levő `runConfigurations` mappát a `.idea` mappába kell másolni.
 Az IDEA felső toolbar-ján van egy legördülő menü, itt vannak a különböző configok, ezeket a menü első (Edit Configurations) opciójával lehet módosítani.
 Futtatni a zöld nyilacskáva lehet. Debugolni a bogárkával.
 Többféleképpen lehet futtatni, ezek az projektben mellékelve vannak:
